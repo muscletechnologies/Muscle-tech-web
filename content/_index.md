@@ -1,92 +1,82 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus.
+  title: Custom Software Solutions That Drive Business Growth
+  content: We build powerful, scalable software products and custom solutions that help businesses <br/> streamline operations, boost efficiency, and accelerate growth.
   image: /images/banner-art.svg
   button:
-    label: "Contact Us"
-    link: "/contact"
+    enable: true
+    label: "Explore Our Solutions"
+    link: "/products"
 
 # feature
 feature: 
-  title: Something You Need To Know
+  title: Why Choose MuscleTech Solutions
   features:
-  - name: "Clean Code"
+  - name: "Enterprise Products"
     icon: "/images/code.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Object Oriented"
+    content: "Ready-to-deploy ERP and management systems built for scalability and performance"
+  - name: "Custom Development"
     icon: "/images/oop.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "24h Service"
+    content: "Tailored software solutions designed to meet your unique business requirements"
+  - name: "24/7 Support"
     icon: "/images/user-clock.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Value for Money"
+    content: "Round-the-clock technical support and maintenance for all our products"
+  - name: "Cost Effective"
     icon: "/images/love.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Faster Response"
+    content: "Competitive pricing with flexible licensing options for businesses of all sizes"
+  - name: "Fast Delivery"
     icon: "/images/speedometer.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Cloud Support"
+    content: "Agile development methodology ensuring rapid deployment and quick iterations"
+  - name: "Cloud Ready"
     icon: "/images/cloud.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Modern cloud-native architecture with seamless hosting and deployment options"
 
 # services
 services:
-  - title: "It is the most advanced digital marketing and it company."
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Enterprise ERP System for Complete Business Management"
+    content: "Streamline your entire business operations with our comprehensive ERP solution. From financial accounting and inventory management to HR and payroll, our system provides real-time insights and seamless workflow automation. Built for scalability, it grows with your business needs."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
       - "/images/service-slide-3.png"
     button:
       enable: true
-      label: Check it out
-      link: /contact
+      label: Learn More
+      link: /products
 
-  - title: "It is a privately owned Information and cyber security company"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Restaurant Fine-Dining ERP for Exceptional Service"
+    content: "Transform your restaurant operations with our specialized hospitality solution. Features include an intuitive POS system, kitchen display integration, table management, and reservation handling. Works seamlessly offline to ensure uninterrupted service during peak hours."
     images: 
-      - "/images/service-slide-1.png"
+      - "/images/service-slide-2.png"
     button:
       enable: true
-      label: Check it out
-      link: /contact
+      label: Learn More
+      link: /products
   
-  - title: "It’s a team of experienced and skilled people with distributions"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Gym Management Platform for Fitness Success"
+    content: "Power your fitness business with our all-in-one gym management solution. Handle memberships, process payments, track attendance, schedule trainers and classes, and generate detailed performance reports. Everything you need to run a successful fitness center."
     images:
+      - "/images/service-slide-3.png"
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
     button:
       enable: true
-      label: Check it out
-      link: /contact
-
-  - title: "A company standing different from others"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-    images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
-    button:
-      enable: true
-      label: Check it out
-      link: /contact
+      label: Learn More
+      link: /products
 
 # workflow
 workflow: 
-  title: "Experience the best workflow with us"
+  title: "From Concept to Deployment, We've Got You Covered"
   image: "/images/banner.svg"
-  description: ""
+  description: "Our proven development process ensures quality delivery on time and within budget"
 
 # call_to_action
 call_to_action:
-  title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  title: Ready to Transform Your Business?
+  content: Let's discuss how our software solutions can streamline your operations and drive growth. Schedule a free consultation today.
   image: '/images/cta.svg'
   button:
     enable: true
-    label: "Contact Us"
+    label: "Request a Demo"
     link: "/contact"
 ---

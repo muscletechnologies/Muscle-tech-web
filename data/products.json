@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "erp-system",
+      "title": "Enterprise ERP System",
+      "subtitle": "Complete Business Management Suite",
+      "shortDescription": "All-in-one enterprise resource planning solution for modern businesses. Manage accounting, inventory, HR, and generate comprehensive reports.",
+      "description": "Our Enterprise ERP System is a comprehensive business management platform designed to streamline your operations. Built with scalability in mind, it integrates seamlessly with your existing workflows and provides real-time insights into every aspect of your business.",
+      "features": [
+        "Financial Accounting & Reporting",
+        "Inventory Management",
+        "Human Resources & Payroll",
+        "Purchase & Sales Management",
+        "Multi-currency Support",
+        "Custom Reports & Dashboards",
+        "Role-based Access Control",
+        "API Integrations"
+      ],
+      "icon": "/images/code.svg",
+      "image": "/images/service-slide-1.png",
+      "images": [
+        "/images/service-slide-1.png",
+        "/images/service-slide-2.png",
+        "/images/service-slide-3.png"
+      ]
+    },
+    {
+      "id": "restaurant-erp",
+      "title": "Restaurant Fine-Dining ERP",
+      "subtitle": "Elevate Your Restaurant Operations",
+      "shortDescription": "Purpose-built for fine dining establishments. Manage POS, kitchen displays, table reservations, and operate seamlessly even offline.",
+      "description": "Transform your fine dining experience with our specialized Restaurant ERP. From front-of-house table management to back-of-house kitchen coordination, our system ensures smooth operations during peak hours and provides valuable insights to grow your business.",
+      "features": [
+        "Point of Sale (POS) System",
+        "Kitchen Display System",
+        "Table Management & Reservations",
+        "Offline Mode Support",
+        "Menu Engineering & Costing",
+        "Staff Scheduling",
+        "Customer Loyalty Programs",
+        "Real-time Sales Analytics"
+      ],
+      "icon": "/images/speedometer.svg",
+      "image": "/images/service-slide-2.png",
+      "images": [
+        "/images/service-slide-2.png",
+        "/images/service-slide-1.png",
+        "/images/service-slide-3.png"
+      ]
+    },
+    {
+      "id": "gym-management",
+      "title": "Gym Management Platform",
+      "subtitle": "Power Your Fitness Business",
+      "shortDescription": "Complete gym and fitness center management solution. Handle memberships, payments, attendance tracking, trainer scheduling, and detailed reports.",
+      "description": "Streamline your fitness business with our Gym Management Platform. From member onboarding to trainer scheduling, our solution handles every aspect of running a successful gym. Focus on what matters most—helping your members achieve their fitness goals.",
+      "features": [
+        "Membership Management",
+        "Payment Processing & Billing",
+        "Attendance Tracking",
+        "Trainer & Class Scheduling",
+        "Member Portal & Mobile App",
+        "Equipment Maintenance Tracking",
+        "Performance Reports",
+        "Lead Management & CRM"
+      ],
+      "icon": "/images/user-clock.svg",
+      "image": "/images/service-slide-3.png",
+      "images": [
+        "/images/service-slide-3.png",
+        "/images/service-slide-1.png",
+        "/images/service-slide-2.png"
+      ]
+    }
+  ]
+}

@@ -1,8 +1,11 @@
 import NotFound from "@layouts/404";
+import About from "@layouts/About";
 import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
 import Faq from "@layouts/Faq";
 import Pricing from "@layouts/Pricing";
+import Products from "@layouts/Products";
+import ServicesPage from "@layouts/Services";
 import SeoMeta from "@layouts/SeoMeta";
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
 
@@ -32,6 +35,12 @@ const RegularPages = async ({ params }) => {
         <Pricing data={regularPageData} />
       ) : layout === "faq" ? (
         <Faq data={regularPageData} />
+      ) : layout === "products" ? (
+        <Products data={regularPageData} />
+      ) : layout === "services" ? (
+        <ServicesPage data={regularPageData} />
+      ) : layout === "about" ? (
+        <About data={regularPageData} />
       ) : (
         <Default data={regularPageData} />
       )}
