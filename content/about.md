@@ -2,33 +2,49 @@
 title: About Us
 layout: about
 draft: false
-description: "Learn about MuscleTech Solutions - our mission, values, and commitment to delivering exceptional software solutions."
+description: "Learn about mUscle Technologies - a leading African provider of business software and IT solutions."
 
 intro:
-  title: "Building Software That Transforms Businesses"
-  content: "MuscleTech Solutions is a forward-thinking software development company dedicated to creating innovative solutions that help businesses thrive in the digital age. We combine technical expertise with deep industry knowledge to deliver products and services that make a real difference."
+  title: "Delivering Business Software Solutions & IT Services"
+  content: "mUscle Technologies is a technology-driven company delivering business software solutions, IT services, and ICT equipment to SMEs, institutions, and enterprises. We specialize in ERP systems, POS solutions, financial software, and custom software development across multiple industries."
   image: "/images/banner-art.svg"
+
+vision:
+  title: "Our Vision"
+  content: "To be a leading African provider of business software and IT solutions."
 
 mission:
   title: "Our Mission"
-  content: "To empower businesses with innovative, reliable, and scalable software solutions that drive growth, improve efficiency, and create lasting value for our clients and their customers."
+  content: "To deliver secure, scalable, and affordable technology solutions that solve real business problems."
 
 values:
-- title: "Innovation First"
+- title: "Innovation"
   icon: "/images/code.svg"
-  content: "We stay at the forefront of technology, continuously exploring new tools and methodologies to deliver cutting-edge solutions."
+  content: "We stay at the forefront of technology, using modern stacks like React, Next.js, Node.js, Laravel, PostgreSQL, and Docker."
 
 - title: "Client Partnership"
   icon: "/images/love.svg"
-  content: "We view every project as a partnership, working closely with our clients to understand their needs and exceed their expectations."
+  content: "We work closely with SMEs, institutions, and enterprises to understand their needs and deliver solutions that exceed expectations."
 
-- title: "Quality Commitment"
+- title: "Quality & Security"
   icon: "/images/oop.svg"
-  content: "We maintain the highest standards in every line of code, ensuring our solutions are robust, secure, and maintainable."
+  content: "We maintain the highest standards in every solution, ensuring our software is robust, secure, and maintainable."
 
-- title: "Transparent Communication"
+- title: "Affordable Excellence"
   icon: "/images/user-clock.svg"
-  content: "We believe in open, honest communication throughout the development process, keeping clients informed at every stage."
+  content: "We believe world-class technology should be accessible to businesses of all sizes across Africa."
+
+industries:
+  title: "Industries We Serve"
+  sectors:
+  - "Retail"
+  - "Hospitality"
+  - "Education"
+  - "Healthcare"
+  - "Finance"
+  - "Real Estate"
+  - "Manufacturing"
+  - "SMEs & Startups"
 
 approach:
   title: "Our Approach"
@@ -38,9 +54,9 @@ approach:
   - title: "Planning"
     content: "We create detailed project roadmaps with clear milestones, timelines, and deliverables."
   - title: "Development"
-    content: "Our agile development process ensures rapid iteration and continuous improvement."
+    content: "Our agile development process using React, Next.js, Node.js, and more ensures rapid iteration."
   - title: "Delivery"
-    content: "We deploy solutions with comprehensive testing, training, and documentation."
+    content: "We deploy solutions with comprehensive testing, training, and ongoing support."
 
 call_to_action:
   title: Let's Build Something Great Together

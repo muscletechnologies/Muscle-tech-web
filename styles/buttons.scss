@@ -23,3 +23,7 @@
     @apply  w-[110%] h-[110%];
   }
 }
+
+.btn-sm {
+  @apply px-4 py-2 text-sm;
+}

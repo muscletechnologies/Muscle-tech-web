@@ -4,7 +4,7 @@ import Cta from "./components/Cta";
 
 function About({ data }) {
   const {
-    frontmatter: { title, intro, mission, values, approach, call_to_action },
+    frontmatter: { title, intro, vision, mission, values, industries, approach, call_to_action },
   } = data;
 
   return (
@@ -37,17 +37,29 @@ function About({ data }) {
         </div>
       </section>
 
-      {/* Mission Section */}
-      {mission && (
-        <section className="section bg-theme-light">
-          <div className="container">
-            <div className="text-center mx-auto lg:col-8">
-              <h2 className="mb-4">{mission.title}</h2>
-              <p className="text-lg">{mission.content}</p>
-            </div>
+      {/* Vision & Mission Section */}
+      <section className="section bg-theme-light">
+        <div className="container">
+          <div className="row">
+            {vision && (
+              <div className="col-12 md:col-6 mb-6 md:mb-0">
+                <div className="bg-white rounded-xl p-8 h-full">
+                  <h2 className="mb-4 text-primary">{vision.title}</h2>
+                  <p className="text-lg">{vision.content}</p>
+                </div>
+              </div>
+            )}
+            {mission && (
+              <div className="col-12 md:col-6">
+                <div className="bg-white rounded-xl p-8 h-full">
+                  <h2 className="mb-4 text-primary">{mission.title}</h2>
+                  <p className="text-lg">{mission.content}</p>
+                </div>
+              </div>
+            )}
           </div>
-        </section>
-      )}
+        </div>
+      </section>
 
       {/* Values Section */}
       {values && (
@@ -78,15 +90,34 @@ function About({ data }) {
         </section>
       )}
 
+      {/* Industries Section */}
+      {industries && (
+        <section className="section bg-theme-light">
+          <div className="container">
+            <h2 className="text-center mb-4">{industries.title}</h2>
+            <div className="flex flex-wrap justify-center gap-3 mt-8">
+              {industries.sectors.map((sector, index) => (
+                <span
+                  key={index}
+                  className="bg-white px-5 py-3 rounded-full text-sm font-medium shadow-sm hover:shadow-md transition-shadow"
+                >
+                  {sector}
+                </span>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Approach Section */}
       {approach && (
-        <section className="section bg-theme-light">
+        <section className="section">
           <div className="container">
             <h2 className="text-center mb-10">{approach.title}</h2>
             <div className="row">
               {approach.steps.map((step, index) => (
                 <div key={index} className="col-12 md:col-6 lg:col-3 mb-6">
-                  <div className="bg-white rounded-xl p-6 text-center h-full">
+                  <div className="bg-theme-light rounded-xl p-6 text-center h-full">
                     <div className="text-4xl font-bold text-primary mb-4">
                       {String(index + 1).padStart(2, "0")}
                     </div>

@@ -1,7 +1,7 @@
 ---
 banner:
-  title: Custom Software Solutions That Drive Business Growth
-  content: We build powerful, scalable software products and custom solutions that help businesses <br/> streamline operations, boost efficiency, and accelerate growth.
+  title: Powering Businesses Through Smart Software & Technology
+  content: We deliver secure, scalable, and affordable technology solutions that solve real business problems. <br/> From ERP systems to custom software development, we help SMEs, institutions, and enterprises thrive.
   image: /images/banner-art.svg
   button:
     enable: true
@@ -10,26 +10,26 @@ banner:
 
 # feature
 feature: 
-  title: Why Choose MuscleTech Solutions
+  title: Why Choose mUscle Technologies
   features:
-  - name: "Enterprise Products"
+  - name: "Enterprise Software"
     icon: "/images/code.svg"
-    content: "Ready-to-deploy ERP and management systems built for scalability and performance"
+    content: "Ready-to-deploy ERP, POS, and management systems built for African businesses"
   - name: "Custom Development"
     icon: "/images/oop.svg"
-    content: "Tailored software solutions designed to meet your unique business requirements"
+    content: "Web, mobile, desktop, and cloud solutions using React, Next.js, Node.js, Laravel & more"
   - name: "24/7 Support"
     icon: "/images/user-clock.svg"
-    content: "Round-the-clock technical support and maintenance for all our products"
-  - name: "Cost Effective"
+    content: "Round-the-clock technical support, training, and maintenance for all our solutions"
+  - name: "ICT Equipment"
     icon: "/images/love.svg"
-    content: "Competitive pricing with flexible licensing options for businesses of all sizes"
-  - name: "Fast Delivery"
+    content: "Desktop computers, laptops, POS terminals, printers, CCTV, and networking equipment"
+  - name: "Fast Implementation"
     icon: "/images/speedometer.svg"
-    content: "Agile development methodology ensuring rapid deployment and quick iterations"
+    content: "Rapid deployment with Tally Prime, SambaPOS setup and ERP implementation services"
   - name: "Cloud Ready"
     icon: "/images/cloud.svg"
-    content: "Modern cloud-native architecture with seamless hosting and deployment options"
+    content: "Modern cloud-native architecture with Docker, seamless hosting and deployment options"
 
 # services
 services:
@@ -44,8 +44,8 @@ services:
       label: Learn More
       link: /products
 
-  - title: "Restaurant Fine-Dining ERP for Exceptional Service"
-    content: "Transform your restaurant operations with our specialized hospitality solution. Features include an intuitive POS system, kitchen display integration, table management, and reservation handling. Works seamlessly offline to ensure uninterrupted service during peak hours."
+  - title: "Restaurant & Hospitality Management Solutions"
+    content: "Transform your restaurant, hotel, or lodge operations with our specialized hospitality solutions. Features include intuitive POS systems, kitchen display integration, table management, booking reservations, and room management. Works seamlessly offline to ensure uninterrupted service."
     images: 
       - "/images/service-slide-2.png"
     button:
@@ -53,8 +53,8 @@ services:
       label: Learn More
       link: /products
   
-  - title: "Gym Management Platform for Fitness Success"
-    content: "Power your fitness business with our all-in-one gym management solution. Handle memberships, process payments, track attendance, schedule trainers and classes, and generate detailed performance reports. Everything you need to run a successful fitness center."
+  - title: "School, Clinic & Gym Management Platforms"
+    content: "Specialized management solutions for education, healthcare, and fitness industries. Handle student records, patient management, gym memberships, attendance tracking, scheduling, and generate detailed performance reports. Everything you need to run your institution efficiently."
     images:
       - "/images/service-slide-3.png"
       - "/images/service-slide-1.png"
@@ -73,7 +73,7 @@ workflow:
 # call_to_action
 call_to_action:
   title: Ready to Transform Your Business?
-  content: Let's discuss how our software solutions can streamline your operations and drive growth. Schedule a free consultation today.
+  content: Let's discuss how our software solutions and IT services can streamline your operations and drive growth. Schedule a free consultation today.
   image: '/images/cta.svg'
   button:
     enable: true

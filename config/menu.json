@@ -6,11 +6,26 @@
     },
     {
       "name": "Products",
-      "url": "/products"
+      "url": "#",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Software Products",
+          "url": "/products"
+        },
+        {
+          "name": "ICT Equipment",
+          "url": "/ict-products"
+        }
+      ]
     },
     {
       "name": "Services",
       "url": "/services"
+    },
+    {
+      "name": "Industries",
+      "url": "/industries"
     },
     {
       "name": "About",
@@ -23,18 +38,26 @@
   ],
   "footer": [
     {
-      "name": "Products",
+      "name": "Software Products",
       "menu": [
         {
-          "text": "Enterprise ERP",
+          "text": "ERP System",
           "url": "/products"
         },
         {
-          "text": "Restaurant ERP",
+          "text": "Restaurant POS",
+          "url": "/products"
+        },
+        {
+          "text": "School Management",
           "url": "/products"
         },
         {
           "text": "Gym Management",
+          "url": "/products"
+        },
+        {
+          "text": "View All Products",
           "url": "/products"
         }
       ]
@@ -43,15 +66,19 @@
       "name": "Services",
       "menu": [
         {
+          "text": "Tally Prime Setup",
+          "url": "/services"
+        },
+        {
+          "text": "SambaPOS Setup",
+          "url": "/services"
+        },
+        {
+          "text": "IT Infrastructure",
+          "url": "/services"
+        },
+        {
           "text": "Custom Development",
-          "url": "/services"
-        },
-        {
-          "text": "Web Applications",
-          "url": "/services"
-        },
-        {
-          "text": "Mobile Apps",
           "url": "/services"
         }
       ]
@@ -64,12 +91,16 @@
           "url": "/about"
         },
         {
-          "text": "Contact",
-          "url": "/contact"
+          "text": "Industries",
+          "url": "/industries"
         },
         {
-          "text": "Privacy Policy",
-          "url": "#"
+          "text": "ICT Equipment",
+          "url": "/ict-products"
+        },
+        {
+          "text": "Contact",
+          "url": "/contact"
         }
       ]
     }

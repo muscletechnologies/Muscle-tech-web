@@ -3,6 +3,8 @@ import About from "@layouts/About";
 import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
 import Faq from "@layouts/Faq";
+import IctProducts from "@layouts/IctProducts";
+import Industries from "@layouts/Industries";
 import Pricing from "@layouts/Pricing";
 import Products from "@layouts/Products";
 import ServicesPage from "@layouts/Services";
@@ -41,6 +43,10 @@ const RegularPages = async ({ params }) => {
         <ServicesPage data={regularPageData} />
       ) : layout === "about" ? (
         <About data={regularPageData} />
+      ) : layout === "ict-products" ? (
+        <IctProducts data={regularPageData} />
+      ) : layout === "industries" ? (
+        <Industries data={regularPageData} />
       ) : (
         <Default data={regularPageData} />
       )}
