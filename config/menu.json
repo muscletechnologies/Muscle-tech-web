@@ -24,6 +24,10 @@
       "url": "/services"
     },
     {
+      "name": "Pricing",
+      "url": "/pricing"
+    },
+    {
       "name": "Industries",
       "url": "/industries"
     },
@@ -80,6 +84,10 @@
         {
           "text": "Custom Development",
           "url": "/services"
+        },
+        {
+          "text": "Muscle POS Pricing",
+          "url": "/pricing"
         }
       ]
     },
@@ -95,8 +103,8 @@
           "url": "/industries"
         },
         {
-          "text": "ICT Equipment",
-          "url": "/ict-products"
+          "text": "Request a Demo",
+          "url": "/request-demo"
         },
         {
           "text": "Contact",

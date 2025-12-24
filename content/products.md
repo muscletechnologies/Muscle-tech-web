@@ -251,10 +251,10 @@ products:
 
 call_to_action:
   title: Need a Custom Solution?
-  content: Our products can be customized to fit your specific business needs. Let's discuss how we can help.
+  content: Our products can be customized to fit your specific business needs. Schedule a free demo today.
   image: '/images/cta.svg'
   button:
     enable: true
     label: "Request a Demo"
-    link: "/contact"
+    link: "/request-demo"
 ---

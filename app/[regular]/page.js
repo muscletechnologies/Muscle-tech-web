@@ -7,6 +7,7 @@ import IctProducts from "@layouts/IctProducts";
 import Industries from "@layouts/Industries";
 import Pricing from "@layouts/Pricing";
 import Products from "@layouts/Products";
+import RequestDemo from "@layouts/RequestDemo";
 import ServicesPage from "@layouts/Services";
 import SeoMeta from "@layouts/SeoMeta";
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
@@ -47,6 +48,8 @@ const RegularPages = async ({ params }) => {
         <IctProducts data={regularPageData} />
       ) : layout === "industries" ? (
         <Industries data={regularPageData} />
+      ) : layout === "request-demo" ? (
+        <RequestDemo data={regularPageData} />
       ) : (
         <Default data={regularPageData} />
       )}

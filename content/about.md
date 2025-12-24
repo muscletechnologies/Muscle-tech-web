@@ -2,11 +2,11 @@
 title: About Us
 layout: about
 draft: false
-description: "Learn about mUscle Technologies - a leading African provider of business software and IT solutions."
+description: "Learn about Muscle Technologies Ltd - a leading African provider of business software and IT solutions based in Kampala, Uganda."
 
 intro:
   title: "Delivering Business Software Solutions & IT Services"
-  content: "mUscle Technologies is a technology-driven company delivering business software solutions, IT services, and ICT equipment to SMEs, institutions, and enterprises. We specialize in ERP systems, POS solutions, financial software, and custom software development across multiple industries."
+  content: "Muscle Technologies Ltd is a technology-driven company delivering business software solutions, IT services, and ICT equipment to SMEs, institutions, and enterprises. We specialize in ERP systems, POS solutions, financial software, and custom software development across multiple industries."
   image: "/images/banner-art.svg"
 
 vision:

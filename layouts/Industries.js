@@ -96,3 +96,5 @@ function Industries({ data }) {
 
 export default Industries;
 
+
+

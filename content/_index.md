@@ -10,7 +10,7 @@ banner:
 
 # feature
 feature: 
-  title: Why Choose mUscle Technologies
+  title: Why Choose Muscle Technologies
   features:
   - name: "Enterprise Software"
     icon: "/images/code.svg"
@@ -44,14 +44,14 @@ services:
       label: Learn More
       link: /products
 
-  - title: "Restaurant & Hospitality Management Solutions"
-    content: "Transform your restaurant, hotel, or lodge operations with our specialized hospitality solutions. Features include intuitive POS systems, kitchen display integration, table management, booking reservations, and room management. Works seamlessly offline to ensure uninterrupted service."
+  - title: "Muscle POS - Point of Sale System for Retail & Hospitality"
+    content: "Power your retail or restaurant business with our affordable, feature-rich Muscle POS system. Manage sales, inventory, customers, and staff with ease. Flexible pricing plans from UGX 400,000/year for small shops to enterprise solutions for large chains."
     images: 
       - "/images/service-slide-2.png"
     button:
       enable: true
-      label: Learn More
-      link: /products
+      label: View Pricing
+      link: /pricing
   
   - title: "School, Clinic & Gym Management Platforms"
     content: "Specialized management solutions for education, healthcare, and fitness industries. Handle student records, patient management, gym memberships, attendance tracking, scheduling, and generate detailed performance reports. Everything you need to run your institution efficiently."
@@ -73,10 +73,10 @@ workflow:
 # call_to_action
 call_to_action:
   title: Ready to Transform Your Business?
-  content: Let's discuss how our software solutions and IT services can streamline your operations and drive growth. Schedule a free consultation today.
+  content: Let's discuss how our software solutions and IT services can streamline your operations and drive growth. Schedule a free demo today.
   image: '/images/cta.svg'
   button:
     enable: true
     label: "Request a Demo"
-    link: "/contact"
+    link: "/request-demo"
 ---

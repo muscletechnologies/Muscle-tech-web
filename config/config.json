@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "mUscle Technologies",
+    "title": "Muscle Technologies Ltd",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "48",
-    "logo_text": "mUscle Technologies"
+    "logo_text": "Muscle Technologies"
   },
 
   "settings": {
@@ -17,20 +17,20 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Get a Quote",
-    "link": "/contact"
+    "label": "Request Demo",
+    "link": "/request-demo"
   },
 
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
     "footer_content": "Powering Businesses Through Smart Software & Technology.",
-    "copyright": "© 2024 mUscle Technologies. All rights reserved."
+    "copyright": "© 2024 Muscle Technologies Ltd. All rights reserved."
   },
 
   "metadata": {
-    "meta_author": "mUscle Technologies",
+    "meta_author": "Muscle Technologies Ltd",
     "meta_image": "",
-    "meta_description": "mUscle Technologies - A leading African provider of business software, IT services, and ICT equipment delivering secure, scalable, and affordable technology solutions."
+    "meta_description": "Muscle Technologies Ltd - A leading African provider of business software, IT services, and ICT equipment. Based in Kampala, Uganda, delivering secure, scalable, and affordable technology solutions."
   }
 }
